@@ -1,0 +1,22 @@
+import java.util.*;
+class Main{
+    public static void main(String args[])
+    {
+        int num=121;
+        int rev=0;
+        int temp=num;
+        while(temp!=0)
+        {
+            int src=temp%10;
+            rev=rev*10+src;
+            temp=temp/10;
+        }
+        if(rev==num)
+        {
+            System.out.println("IT IS PALINDROME");
+        }
+        else{
+            System.out.println("IT IS NOT A PALINDROME");
+        }
+    }
+}
