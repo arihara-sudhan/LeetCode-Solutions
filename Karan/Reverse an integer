@@ -1,0 +1,15 @@
+import java.util.*;
+class Main{
+    public static void main(String args[])
+    {
+        int num=1443;
+        int rev=0;
+        while(num!=0)
+        {
+            int src=num%10;
+            rev=rev*10+src;
+            num=num/10;
+        }
+            System.out.println("REVERSE INTEGER IS:"+rev);
+    }
+}
