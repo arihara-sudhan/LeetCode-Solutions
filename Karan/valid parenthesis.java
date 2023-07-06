@@ -48,6 +48,6 @@ class Main{
         if(st.size()==0)
             System.out.println("PARENTESIS VALID");
         else
-            System.out.println(st);
+            System.out.println("PARENTHESIS INVALID");
     }
 }
